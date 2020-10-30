@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@drawable/back" />
+
+    <EditText
+        android:id="@+id/edtPhoneNumber"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_64sdp"
+        android:gravity="center"
+        android:hint="@string/input_phone_number"
+        android:inputType="number"
+        android:maxLength="10"
+        android:textStyle="italic" />
+
+    <Spinner
+        android:gravity="center"
+        android:id="@+id/spnCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/spinner_country" />
+
+    <!--    <androidx.appcompat.widget.LinearLayoutCompat-->
+    <!--        android:gravity="center"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal">-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_width="@dimen/_20sdp"-->
+    <!--            android:layout_height="@dimen/_15sdp"-->
+    <!--            android:background="@drawable/vietnam" />-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_margin="@dimen/_8sdp"-->
+    <!--            android:gravity="center"-->
+    <!--            android:text="@string/country"-->
+    <!--            android:textSize="@dimen/_15sdp" />-->
+    <!--    </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+    <TextView
+        android:id="@+id/tvWhenLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:gravity="center"
+        android:text="@string/when_login" />
+
+    <TextView
+        android:id="@+id/tvTermOfService"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/termofservice_and_privacypolicy"
+        android:textColor="@color/ColorDefault" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:background="@drawable/shape_button"
+        android:gravity="center"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20sdp"
+        android:typeface="sans" />
+</LinearLayout>

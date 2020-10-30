@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.needrelief.CreateBulletinOfReliefActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_CreateBulletin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/back"
+        app:title="Tạo bản tin cứu trợ" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:background="@drawable/background_linear"
+        android:orientation="vertical"
+        android:padding="@dimen/_4sdp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_CreateBulletin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/man_contact"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/edtPeople_Call"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:autofillHints=""
+            android:background="@drawable/background_linear"
+            android:inputType="textMultiLine"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/Role"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/edtRole"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:autofillHints=""
+            android:background="@drawable/background_linear"
+            android:inputType="textMultiLine"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/Number_Phone"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/edtNumberPhone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:autofillHints=""
+            android:background="@drawable/background_linear"
+            android:inputType="number"
+            tools:ignore="LabelFor,TextFields" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/unit"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/edt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:autofillHints=""
+            android:background="@drawable/background_linear"
+            android:inputType="textMultiLine"
+            tools:ignore="LabelFor,TextFields" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:background="@drawable/background_linear"
+        android:orientation="vertical"
+        android:padding="@dimen/_4sdp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/time"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tvDateCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/background_linear"
+            android:drawableEnd="@drawable/ic_calendar"
+            android:drawableRight="@drawable/ic_calendar"
+            android:padding="@dimen/_4sdp"
+            android:text=""
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/item_support"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/edtNeed_support"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_160sdp"
+            android:autofillHints=""
+            android:background="@drawable/background_linear"
+            android:inputType="textMultiLine"
+            />
+
+        <Button
+            android:id="@+id/btnAdd_Image_Situation"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:background="@drawable/background_button_addimage"
+            android:drawableStart="@drawable/ic_libraly"
+            android:drawableLeft="@drawable/ic_libraly"
+            android:paddingEnd="@dimen/_16sdp"
+            android:paddingRight="@dimen/_16sdp"
+            android:text="@string/add_image_item"
+            tools:ignore="RtlSymmetry" />
+
+        <ImageView
+            android:id="@+id/rimgItem"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:background="@drawable/shape_button"
+        android:text="@string/Save"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="RtlSymmetry" />
+</androidx.constraintlayout.widget.ConstraintLayout>

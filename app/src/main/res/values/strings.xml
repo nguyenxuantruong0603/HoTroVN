@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">HoTroVN</string>
+    <string name="hotrovn">HOTROVN</string>
+    <string name="faith">Lan tỏa niềm tin</string>
+    <string name="You_Care">Bạn đang quan tâm ?</string>
+    <string name="need_relief">Cần cứu trợ</string>
+    <string name="helper">Mạnh Thường quân</string>
+    <string name="input_phone_number">Nhập số điện thọai</string>
+    <string name="country">Việt Nam (+84)</string>
+    <string name="when_login">Khi đăng nhập, bạn đồng ý với</string>
+    <string name="termofservice_and_privacypolicy">Điều khoản dịch vụ và Chính Sách về Sự Riêng Tư của chúng tôi</string>
+    <string name="next">Tiếp theo</string>
+    <string name="bang_tin_cuu_tro">BẢNG TIN CỨU TRỢ</string>
+    <string name="your_location">Vị trí của bạn</string>
+    <string name="people_call">Người kêu gọi</string>
+    <string name="Role">Vai trò</string>
+    <string name="Number_Phone">Điện thoại</string>
+    <string name="describe_the_situation">Mô tả tình hình</string>
+    <string name="Need_support">Cần hỗ trợ những gì?</string>
+    <string name="add_image_situation">Thêm ảnh tình hình</string>
+    <string name="Save">Lưu</string>
+    <string name="create_bulletin_success">Bản tin cứu trợ thành công!</string>
+    <string name="create_bulletin_result">Các mạnh thường quân sẽ nhận được \n bản tin cứu trợ của bạn sớm!</string>
+    <string name="thong_tin_cuu_tro">THÔNG TIN CỨU TRỢ</string>
+    <string name="map">Bản đồ</string>
+    <string name="information">Thông tin</string>
+    <string name="man_contact">Người liên hệ</string>
+    <string name="unit">Tổ chức/ Đơn vị</string>
+    <string name="time">Thời gian</string>
+    <string name="item_support">Mặt hàng</string>
+    <string name="add_image_item">Thêm ảnh mặt hàng</string>
+
+</resources>

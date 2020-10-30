@@ -1,0 +1,133 @@
+{
+  "Id": 1,
+  "Name": "VietNam",
+  "Code": "vn",
+  "Province": [
+    {
+      "Id": 1,
+      "Name": "Hà Nội",
+      "Code": "HN",
+      "District": [
+        {
+          "Id": 1,
+          "Name": "Quận Ba Đình",
+          "Code": "BD",
+          "village": [
+            {
+              "Id": 1,
+              "Name": "Phường Cống Vị",
+              "Code": "CV"
+            },
+            {
+              "Id": 2,
+              "Name": "Phường Đội Cấn",
+              "Code": "DC"
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Name": "Quận Bắc Từ Liêm",
+          "Code": "BTL",
+          "village": [
+            {
+              "Id": 1,
+              "Name": "Phường Cổ Nhuế 1",
+              "Code": "CN1"
+            },
+            {
+              "Id": 2,
+              "Name": "Phường Đông Ngạc",
+              "Code": "DN"
+            }
+          ]
+        }
+      ],
+      "Id": 2,
+      "Name": "Hà Tây",
+      "Code": "HT",
+      "District": [
+        {
+          "Id": 1,
+          "Name": "Huyện Thanh Oai",
+          "Code": "TO",
+          "village": [
+            {
+              "Id": 1,
+              "Name": "Phường Thanh Oai Vị",
+              "Code": "TOV"
+            },
+            {
+              "Id": 2,
+              "Name": "Phường Thanh Oai Cấn",
+              "Code": "TOC"
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Name": "Huyện Ứng Hòa",
+          "Code": "UH",
+          "village": [
+            {
+              "Id": 1,
+              "Name": "Xã Liên Bạt",
+              "Code": "LB"
+            },
+            {
+              "Id": 2,
+              "Name": "Thị trấn Vân Đình",
+              "Code": "VD"
+            }
+          ]
+        }
+      ],
+      "Id": 3,
+      "Name": "Hà Nam",
+      "Code": "HNA",
+      "District": [
+        {
+          "Id": 1,
+          "Name": "Huyện Kim Bảng",
+          "Code": "KB",
+          "village": [
+            {
+              "Id": 1,
+              "Name": "Thị Xã Kim Bảng",
+              "Code": "KB"
+            },
+            {
+              "Id": 2,
+              "Name": "Thị Xã Kim Bảng 2",
+              "Code": "KB2"
+            }
+          ]
+        },
+        {
+          "Id": 2,
+          "Name": "Huyện Kim Liên",
+          "Code": "KL",
+          "village": [
+            {
+              "Id": 1,
+              "Name": "Thị Xã Kim Liên",
+              "Code": "KL"
+            },
+            {
+              "Id": 2,
+              "Name": "Thị Xã Kim Liên 2 ",
+              "Code": "KL2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Id": 2,
+  "Name": "Mĩ",
+  "Code": "usa",
+  "Province": [
+
+  ]
+
+}
